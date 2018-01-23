@@ -40,7 +40,8 @@ el4.send_keys("123456qwe")
 time.sleep(1)
 el5 = driver.find_element_by_xpath("(//android.view.View[@content-desc=\"登录\"])[2]")
 el5.click()
-time.sleep(1)
+
+time.sleep(3)
 
 
 
